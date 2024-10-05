@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root{
+    --logoColor: #6300e4;
+    --logoColorDeep: #4c00b0;
+    --text: #e9e9e9;
+}
+
+#side-nav-section{
+    background: linear-gradient(to right, rgb(24, 24, 27), rgba(0, 0, 0, 0));
+}
+.side-navlinks:hover{
+    scale: 1.1;
+    color: var(--text);
+    padding-left: 0.75rem;
+}
+.side-navlinks{
+    transition: all 0.2s 0.2s ease;
+}
